@@ -9,4 +9,6 @@ linter: jetbrains/qodana-js:2025.2
 profile:
   name: qodana.recommended
 include:
-  - name: CheckDependencyLicenses, Eslint
+  - name: CheckDependencyLicenses
+include:
+	- name: Eslint
